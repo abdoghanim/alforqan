@@ -97,7 +97,7 @@ header .main-nav {
 
 @media (max-width: 767px) {
   header .main-nav {
-     padding-left: 50px;
+     padding-left: 70px;
   }
   .landing {
       display: none;
@@ -435,6 +435,12 @@ main audio{
   left: 0;
 }
 
+@media (max-width: 767px) {
+  .last-nav{
+      text-align: center;
+      font-size: 11px;
+  }
+}
 
 footer {
   background-color:white;
@@ -450,11 +456,13 @@ footer .container {
   text-align: center;
 }
 footer .container .dad {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 h4 {
-  font-family: 'Righteous', cursive;
+  font-family: 'Reem Kufi', sans-serif;
   font-size: 28px;
+  color: #045C44;
+  padding-bottom: 30px;
 }
 /* end footer */

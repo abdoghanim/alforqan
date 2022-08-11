@@ -96,7 +96,7 @@ header .main-nav {
 
 @media (max-width: 767px) {
     header .main-nav {
-       padding-left: 50px;
+       padding-left: 70px;
     }
     .landing {
         display: none;
@@ -276,6 +276,13 @@ header .main-nav > li > a:hover::before {
 }
 .ddddd {
     padding-left: 300px;
+    color: #045C44;
+}
+
+.sora{
+    font-size: larger;
+    color: #045C44;
+
 }
 /* End Animation */
 .parent1 {
@@ -361,18 +368,69 @@ header .main-nav > li > a:hover::before {
 }
 
 .num {
-    padding-right: 15px;
     text-align: left;
-    font-size: 20px;
+    padding-right: 5px;
+    font-size: 24px;
     color: var(--main-color);
     font-family: 'Anton', sans-serif;
 
 }
 
 .name {
-    font-size: 20px;
+    font-size: 24px;
+    
 }
 
+.line a
+{
+    text-align: center;
+    min-width: 350px;
+    max-width: 350px;
+}
+
+@media (min-width: 992px) {
+    .num {
+        text-align: left;
+        padding-right: 5px;
+        font-size: 20px;
+        color: var(--main-color);
+        font-family: 'Anton', sans-serif;
+    
+    }
+    
+    .name {
+        font-size: 22px;
+        
+    }
+    
+    .line a
+    {
+        text-align: center;
+        min-width: 300px;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .line a
+    {
+        text-align: center;
+        min-width: 150px;
+        max-width: 150px;
+    }
+    .num {
+        text-align: left;
+        padding-right: 5px;
+        font-size: 14px;
+        color: var(--main-color);
+        font-family: 'Anton', sans-serif;
+    
+    }
+    
+    .name {
+        font-size: 18px;
+    }
+}
 /* start footer */
 
 .last-nav {
@@ -429,11 +487,13 @@ footer .container {
     text-align: center;
 }
 footer .container .dad {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 h4 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Reem Kufi', sans-serif;
     font-size: 28px;
+    padding-bottom: 30px;
+    color: #045C44;
 }
 /* end footer */
